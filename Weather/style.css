@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Alata", sans-serif;
+}
+body {
+  background-color: #cefcf4;
+  height: 100px;
+}
+.heading {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 4rem;
+}
+#search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+#temp {
+  text-align: center;
+}
+#temp,
+#temp-unit {
+  font-size: 2rem;
+  color: #fff;
+}
+#climate {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+#location {
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+}
+#temp-icon {
+  margin: 1rem;
+  width: 35%;
+  height: auto;
+}
+main {
+  border: 3px solid #7d0188;
+  padding: 20px;
+  margin-top: 3%;
+  width: 360px;
+  border-radius: 1rem;
+  background-color: #bc7bc2;
+  height: 360px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#search-button {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #e74d4d;
+  padding: 12px;
+  border: 2px solid #fd0000;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  /* margin-left: 2px; */
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  outline: none;
+}
+
+#search-input {
+  width: 260px;
+  overflow: hidden;
+  font-size: 20px;
+  margin: 8px 0;
+  padding: 7px 5px;
+  border: 2px solid #fd0000;
+  transition: all 0.4s ease 0s;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  outline: none;
+  background: none;
+}
+.footer{
+  text-align: center;
+  justify-content: center;
+  margin-top: 2%;
+  font-size: 12px;
+  color:#b4b0b0 ;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="shortcut icon" href="/svg/clouds.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="heading">
+    <h1>Get Weather all over the world!</h1>
+  </div>
+
+  <form action="#" id="search-form">
+    <input type="search" name="search" id="search-input" class="input" placeholder=" Enter city name" required
+      autocomplete="off" />
+    <button type="submit" class="btn" id="search-button">
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </button>
+  </form>
+
+  <main id="container">
+    <div id="location">
+      <p>--------</p>
+    </div>
+    <div id="temp">
+      <img src="/svg/sun.svg" alt="climate" id="temp-icon">
+      <p><span id="temp-value">----</span><span id="temp-unit">&#176c</span></p>
+    </div>
+    <div id="climate">
+      <p>-------</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="copyrights">
+      Copyright &copy; Vignesh M R - 2020
+    </p>
+  </footer>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
